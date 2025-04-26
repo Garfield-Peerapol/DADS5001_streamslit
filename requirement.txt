@@ -1,4 +1,0 @@
-pandas
-numpy
-streamlit
-plotly.figure_factory
