@@ -1,0 +1,6 @@
+streamlit
+pandas
+numpy
+pydeck
+plotly.express
+plotly.figure_factory
