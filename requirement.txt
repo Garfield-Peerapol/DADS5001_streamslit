@@ -2,4 +2,5 @@ streamlit
 pandas
 numpy
 pydeck
-plotly
+plotly.express
+plotly.figure_factory
