@@ -2,4 +2,4 @@ streamlit
 pandas
 numpy
 pydeck
-plotly>=5.0.0
+pip install plotly
