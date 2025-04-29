@@ -82,7 +82,7 @@ data['minute'] = data['timestamp'].dt.minute
 minute_counts = data.groupby('minute').size().reset_index(name='case_count')
 
 # สร้าง Bar Chart
-fig3 = px.bar(minute_counts, x='minute', y='case_count',
+fig3 = px.line(minute_counts, x='minute', y='case_count',
              labels={'minute': 'นาที', 'case_count': 'จำนวนเคส'},
              title='จำนวนเคสในแต่ละนาที (0-59)')
 #fig3.show()
